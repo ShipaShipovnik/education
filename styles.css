@@ -128,3 +128,30 @@ header {
     width: 480px;
     height: 379px;
 }
+
+/* 3 инфо блок */
+
+.info-block-three {
+    height: 292px;
+}
+
+.info-block-three .info-text {
+    float: left;
+    width: 530px;
+}
+
+.info-block-three .info-text h1 {
+    padding-top: 30px;
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+.info-block-three .info-img {
+    float: right;
+    width: 439.314px;
+    height: 292.642px;
+}
+
+/* форма */
