@@ -89,6 +89,8 @@ header {
     border-radius: 10px;
     background: #682C0E;
     margin-top: 30px;
+    cursor: pointer;
+
 }
 
 
@@ -171,10 +173,48 @@ header {
     padding-left: 10px;
     font-size: 20px;
     font-weight: 600;
-   
+
 }
 
 .subscribe-form form input[type="button"] {
     background-color: #C24914;
     color: white;
+}
+
+/* start growinng */
+.start-growing .container {
+    height: 780px;
+    flex-shrink: 0;
+    background-image: url(images/community.png);
+}
+
+.start-growing .info-text {
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.start-growing .info-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+
+.start-growing .info-text p {
+    color: rgba(0, 0, 0, 0.46);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.start-growing .info-text button {
+    width: 273px;
+    height: 54px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background: #FC8621;
+    margin-top: 63px;
+    cursor: pointer;
 }
